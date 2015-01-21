@@ -1,0 +1,159 @@
+body{
+  background-color:white;
+  font-family:verdana, sans-serif;
+  color:#00000A;
+  font-size:14px;
+}
+
+#mainTitle{
+  font-family:Courier;
+  font-size:100px;
+  margin:auto;
+  text-align:center;
+  letter-spacing:20px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #B30C15;
+  display:block;
+}
+
+.instructions {
+  position:relative;
+  clear:both;
+  padding:25px;  
+}
+
+#helpMenuInstructions {
+  margin:auto;
+  text-align:center;
+  display:none;
+  text-indent:20px;  
+}
+
+#guessList,span{
+  font-size:20px;
+  font-family: Cursive;
+  color:#B30C15;
+}
+
+#inGameInstructions{
+  display:none;
+}
+.selectionButtons {
+  font-size:20px;
+  color:#999999;
+  border:2px solid #999999;
+  padding:2px;
+  border-radius:5px;
+  position:relative;
+  height:25px;
+  width:auto;
+  text-align:center;
+}
+
+.selectionButtons:hover{
+    font-weight: bold;
+    color:#B30C15;
+    text-decoration:underline;
+}
+
+#toMainMenu{
+    display:none;
+    float:right;
+}
+
+#playGame {
+  margin-bottom:5px;
+  display:block;
+}
+
+#helpMenu {
+  margin-bottom:5px;
+  display:block;
+}
+
+#hackCode{
+  margin-top:60px;
+  display:none;  
+}
+
+#playAgain{  
+  margin-top:40px;
+  display:none;
+}
+
+div.codeOption{
+  width:100px;
+  height:100px;
+  border-radius:20px;
+  margin:10px;
+  float:left;
+  display:none;
+  box-shadow: 5px 5px 4px 
+  #888888;
+  position:relative;
+}
+
+#red {
+  background-color:#B30C15;
+}
+
+#green {
+  background-color:#0D822C;
+}
+
+#orange {
+  background-color:#E86E02;
+}
+
+#yellow {
+  background-color:#F2E311;
+}
+
+#blue {
+  background-color:#0D1782;
+}
+
+#purple {
+  background-color:#570D82;
+}
+
+.playerCodeChoice div{
+  width:20px; 
+  height:20px; 
+  border-radius:5px; 
+  box-shadow: 2px 2px 2px #888888; 
+  margin-right:5px;
+  display:inline-block;
+  float:left;
+}
+
+.playerCodeChoice div.red{
+   background-color:#B30C15; 
+}
+
+.playerCodeChoice div.green{
+  background-color:#0D822C;
+}
+
+.playerCodeChoice div.orange{
+  background-color:#E86E02;
+}
+
+.playerCodeChoice div.yellow{
+  background-color:#F2E311;
+}
+
+.playerCodeChoice div.blue{
+  background-color:#0D1782;
+}
+
+.playerCodeChoice div.purple{
+  background-color:#570D82;
+}
+
+.outcome {
+  float:right;
+  font-size:14;
+  font-family:Verdana, sans-serif;
+}
+

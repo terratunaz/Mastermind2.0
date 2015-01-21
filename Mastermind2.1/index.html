@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - MASTERMIND</title>
+
+  <link rel='stylesheet' href='http://codepen.io/assets/libs/fullpage/jquery-ui.css'>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <body>
+
+    <!--Help menu elements-->
+
+    <div class=instructions id="helpMenuInstructions"><span>M</span>astermind is a two-player code-breaking game where one player makes a code <span>(you)</span> and another player <span>(the computer)</span> guesses it. The code is made up of four colors and can include duplicates. There are six available colors from which to choose: red, green, orange, yellow, blue, purple. Can you craft an unbreakable code?</div>
+
+    <!--Main Menu elements-->
+
+    <div id="mainTitle">MASTERMIND</div>
+    <div class="selectionButtons" id="playGame">Play</div>
+    <div class="selectionButtons" id="helpMenu">Instructions</div>
+
+    <!--In game elements-->
+
+    <div>
+        <p class="selectionButtons" id=toMainMenu>Main Menu</p>
+    </div>
+    <div class="codeOption" id="red"></div>
+    <div class="codeOption" id="green"></div>
+    <div class="codeOption" id="orange"></div>
+    <div class="codeOption" id="yellow"></div>
+    <div class="codeOption" id="blue"></div>
+    <div class="codeOption" id="purple"></div>
+    <div class="instructions" id="inGameInstructions">Please choose a four color code. Feel free to choose the same color multiple times if you wish.</div>
+    <div id="playersFinalCode">
+    </div>
+    <div id="hackCode" class="selectionButtons">[HackCode]</div>
+
+    <div class="outcome"></div>
+
+    <ol id="guessList"></ol>
+
+    <div id="playAgain" class="selectionButtons">Play Again?</div>
+
+</body>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery_and_jqueryui.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
